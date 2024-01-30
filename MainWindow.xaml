@@ -13,7 +13,7 @@
             FontSize="12"
             Margin="0,5,0,0" 
             Padding="0,0,10,0">
-            Wygenerowane hasło: </TextBlock>
+            Generated password: </TextBlock>
             <TextBox Name="TextBoxPassword"
         FontSize="20"
         Height="30"
@@ -30,7 +30,7 @@
         FontSize="12"
         Margin="0,5,0,0" 
         Padding="0,0,10,0">
-        Siła hasła: </TextBlock>
+        Password str length: </TextBlock>
         <ProgressBar Name="ProgressBarPasswordStrength"
         Width="500"
         Height="30">
@@ -39,7 +39,7 @@
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
         <TextBlock
         FontSize="12"
-        Padding="0,0,10,0">Długość hasła: </TextBlock>
+        Padding="0,0,10,0">Password length: </TextBlock>
             <Slider Name="SliderLengthPassword"
         Value="25"
         IsSnapToTickEnabled="True"
@@ -59,7 +59,7 @@
         Margin="0,80,0,0">
             <TextBlock
             Padding="0,0,20,0">
-            Uwzględnij: </TextBlock>
+            Include: </TextBlock>
             <CheckBox Name="CheckBoxBigLetters"
             IsChecked="True"
             Padding="0,0,20,0"
@@ -85,7 +85,7 @@
         Height="40"
         Width="100"
         FontSize="20"
-        Content="Generuj"
+        Content="Generate"
         HorizontalAlignment="Center"
         VerticalAlignment="Bottom"
         Margin="0,0,0,20"
